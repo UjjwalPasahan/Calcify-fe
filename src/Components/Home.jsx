@@ -73,7 +73,7 @@ const Home = () => {
       // Prepare variables (if you have any)
       const variables = Object.entries(dictOfVars).map(([key, value]) => `${key}=${value}`).join(',');
   
-      const BASE_URL = 'https://calcify-phi.vercel.app/?vercelToolbarCode=oLml73Uskk5-B1P';
+      const BASE_URL = 'https://vercel.com/ujjwalpasahans-projects/calcify/8RtctEp5WCDCDXoQ6hKaceyUKtdh';
   
       let response = await axios.post(`${BASE_URL}/api/calculate`, {
         image: imageData,
